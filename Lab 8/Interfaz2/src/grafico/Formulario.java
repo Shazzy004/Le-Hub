@@ -60,8 +60,8 @@ public class Formulario extends JFrame {
         contentPane.add(lblNombre);
 
         textNombre = new CustomTextField();
-        textNombre.setFont(new Font("Tahoma", Font.PLAIN, 20));
-        textNombre.setBounds(141, 102, 153, 19);
+        textNombre.setFont(new Font("Tahoma", Font.PLAIN, 16));
+        textNombre.setBounds(141, 97, 153, 24);
         contentPane.add(textNombre);
         textNombre.setColumns(10);
 
@@ -72,9 +72,9 @@ public class Formulario extends JFrame {
         contentPane.add(lblCedula);
 
         textCedula = new CustomTextField();
-        textCedula.setFont(new Font("Tahoma", Font.PLAIN, 20));
+        textCedula.setFont(new Font("Tahoma", Font.PLAIN, 16));
         textCedula.setColumns(10);
-        textCedula.setBounds(141, 167, 153, 19);
+        textCedula.setBounds(141, 166, 153, 24);
         contentPane.add(textCedula);
 
         JLabel lblSexo = new JLabel("Sexo:");
@@ -96,9 +96,9 @@ public class Formulario extends JFrame {
         contentPane.add(lblIndice);
 
         textIndice = new CustomTextField();
-        textIndice.setFont(new Font("Tahoma", Font.PLAIN, 20));
+        textIndice.setFont(new Font("Tahoma", Font.PLAIN, 16));
         textIndice.setColumns(10);
-        textIndice.setBounds(141, 309, 153, 19);
+        textIndice.setBounds(141, 308, 153, 24);
         contentPane.add(textIndice);
 
         JLabel lblCarrera = new JLabel("Carrera:");
@@ -150,13 +150,13 @@ public class Formulario extends JFrame {
         contentPane.add(lblBusqueda);
 
         JTextField textBusqueda = new CustomTextField();
-        textBusqueda.setFont(new Font("Tahoma", Font.PLAIN, 20));
-        textBusqueda.setBounds(625, 102, 153, 19);
+        textBusqueda.setFont(new Font("Tahoma", Font.PLAIN, 16));
+        textBusqueda.setBounds(623, 97, 153, 24);
         contentPane.add(textBusqueda);
 
         JButton btnBuscar = new CustomButton("Buscar");
         btnBuscar.setFont(new Font("Tahoma", Font.PLAIN, 18));
-        btnBuscar.setBounds(790, 100, 105, 23);
+        btnBuscar.setBounds(786, 97, 105, 23);
         contentPane.add(btnBuscar);
 
         btnBuscar.addActionListener(new ActionListener() {
